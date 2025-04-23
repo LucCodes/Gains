@@ -20,7 +20,7 @@ global supplementList
 
 # Setup
 root = customtkinter.CTk()
-root.iconbitmap("dumbbellicon.ico")
+# root.iconbitmap("dumbbellicon.ico")
 customtkinter.set_appearance_mode("Dark")
 customtkinter.set_default_color_theme("dark-blue")
 root.geometry("1005x470")
@@ -315,10 +315,10 @@ def calculate_bmi():
 GainsLetter = customtkinter.CTkLabel(root, text="MAKE SOME GAINS", font = ('Verdana', 25))
 GainsLetter.place(x=700, y = 400)
 
-# Gain Logo
-GainLogo = ImageTk.PhotoImage(Image.open("logo.png"))
-Glabel   = Label(frame, image = GainLogo)
-Glabel.pack()
+# # Gain Logo
+# GainLogo = ImageTk.PhotoImage(Image.open("logo.png"))
+# Glabel   = Label(frame, image = GainLogo)
+# Glabel.pack()
 
 # Titles for Front and Back Buttons + UI Frame
 leftframe = customtkinter.CTkFrame(root, fg_color="#303030", width=340, height=240)
